@@ -5,6 +5,7 @@ from platform import system
 
 import numpy as np
 from scipy import sparse
+from sklearn.datasets import load_svmlight_file
 
 
 def find_lib_path():
